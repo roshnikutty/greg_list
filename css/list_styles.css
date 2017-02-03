@@ -1,0 +1,167 @@
+
+body * {
+  box-sizing: border-box;
+  } 
+
+main{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+a:link {
+		text-decoration: none;
+}
+
+.link_color:link {
+		color:purple;
+	}
+
+.header_bar {
+	background-color: lightgrey;
+	position: fixed;
+	height: auto;
+	top: 0px;
+	left:0px;
+	right:0px;
+	width:100%;
+	padding-left: 50px;
+	padding-right: 50px;
+	}
+
+h3.logo {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    -webkit-margin-before: 0.75em;
+}
+
+.right_corner { 
+    list-style: none; 
+    float: right;
+    -webkit-margin-after: 0;
+	}
+
+li {
+	display: inline-block;
+	height: 40px;
+	width: 50px;
+	text-align: right;
+	margin-left: 10px;
+}
+
+
+.section_style {
+	position: relative;  
+	top: 85px;
+	left: 125px;
+	width:100%;
+	height:auto;
+	padding-right: 50px;
+}
+.search_jobs {
+	display: inline-block;
+}
+
+input {
+	display: inline-block;
+    float: left;
+    border-right: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+img {
+	display: inline-block;
+	float: right;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	border-spacing: 7px;
+	width: 30px;
+	height: auto;
+	margin-left: 5px;
+	padding: 2px;
+}
+
+.prev, .next, .page_status{
+	position: relative;
+	display: inline-block;
+	top: 20px;
+	left: 0px;
+    border-left: 0.5px solid lightgrey;
+    border-top: 0.5px solid lightgrey;
+    border-bottom: 0.5px solid lightgrey;
+	vertical-align: middle;
+	text-align: center;
+	float:left;
+	padding:0;
+}
+
+.prev {
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px; 
+	width:70px;
+}
+
+.next {
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px; 
+	border-right: 0.5px solid lightgrey;
+	width:70px;
+}
+
+.page_status {
+	width: 140px;
+}
+
+.prev p, .next p, .page_status p, .grey_text_date p, .entry p, .location p {
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+.results {
+	position: relative;  
+	top: 135px;
+	left: 125px;
+	width:50%;
+	height:auto;
+	padding-right: 50px;
+
+}
+
+.grey_text_date {
+	float: left;
+	margin-right: 30px;
+	display: inline-block;
+	left: 0;
+	color: grey;
+}
+
+.role {
+	float: left;
+	margin-right: 30px;
+	margin-left: 0px;
+	display: inline-block;
+	left: 0;
+	right: 0;
+}
+
+.location {
+	float: left;
+	margin-left: 0px;
+	display: inline-block;
+	right: 0;
+	color: grey;
+}
+
+.entry {
+	display: block;
+	clear: left
+}
+
+p > a {
+	font-weight: bold;
+}
